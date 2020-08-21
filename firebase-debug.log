@@ -1,338 +1,47 @@
-[debug] [2020-08-21T05:53:15.163Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T05:53:15.166Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2020-08-21T05:53:15.167Z] CLI Version:   8.2.0
-[debug] [2020-08-21T05:53:15.167Z] Platform:      win32
-[debug] [2020-08-21T05:53:15.167Z] Node Version:  v13.7.0
-[debug] [2020-08-21T05:53:15.169Z] Time:          Fri Aug 21 2020 11:23:15 GMT+0530 (India Standard Time)
-[debug] [2020-08-21T05:53:15.169Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T05:53:15.169Z] 
-[debug] [2020-08-21T05:53:15.182Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2020-08-21T05:53:15.183Z] > authorizing via signed-in user
-[debug] [2020-08-21T05:53:15.183Z] [iam] checking project zerobugs-277520 for permissions ["firebase.projects.get"]
-[debug] [2020-08-21T05:53:15.187Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/zerobugs-277520:testIamPermissions  
+[debug] [2020-08-21T15:58:43.497Z] ----------------------------------------------------------------------
+[debug] [2020-08-21T15:58:43.500Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-08-21T15:58:43.501Z] CLI Version:   8.2.0
+[debug] [2020-08-21T15:58:43.501Z] Platform:      win32
+[debug] [2020-08-21T15:58:43.501Z] Node Version:  v13.7.0
+[debug] [2020-08-21T15:58:43.503Z] Time:          Fri Aug 21 2020 21:28:43 GMT+0530 (India Standard Time)
+[debug] [2020-08-21T15:58:43.503Z] ----------------------------------------------------------------------
+[debug] [2020-08-21T15:58:43.504Z] 
+[debug] [2020-08-21T15:58:43.518Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-21T15:58:43.519Z] > authorizing via signed-in user
+[debug] [2020-08-21T15:58:43.520Z] [iam] checking project zerobugs-277520 for permissions ["firebase.projects.get"]
+[debug] [2020-08-21T15:58:43.525Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/zerobugs-277520:testIamPermissions  
  {"permissions":["firebase.projects.get"]}
-[debug] [2020-08-21T05:53:16.365Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 05:53:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=945","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-08-21T05:53:16.367Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520  
+[debug] [2020-08-21T15:58:45.538Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 15:58:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1014","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-21T15:58:45.541Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520  
  
-[debug] [2020-08-21T05:53:16.753Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 05:53:17 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-21T15:58:45.942Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 15:58:47 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
 [info] 
 [info] === Serving from 'C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp'...
 [info] 
-[debug] [2020-08-21T05:53:16.761Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520/webApps/-/config  
+[debug] [2020-08-21T15:58:45.951Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520/webApps/-/config  
  
-[debug] [2020-08-21T05:53:17.836Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 05:53:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] i  hosting: Serving hosting files from: public
+[debug] [2020-08-21T15:58:47.005Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 15:58:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
 [info] +  hosting: Local server: http://localhost:5000
 [warn] !  Your requested "node" version "8" doesn't match your global version "13"
 [info] +  functions: functions emulator started at http://localhost:5001
 [info] i  functions: Watching "C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions" for Cloud Functions...
-[debug] [2020-08-21T05:53:18.868Z] [worker-pool] addWorker(~diagnostic~) 
-[debug] [2020-08-21T05:53:18.869Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
-[debug] [2020-08-21T05:53:18.869Z] [worker-pool] submitWork(triggerId=) 
-[debug] [2020-08-21T05:53:18.869Z] [worker-~diagnostic~-c9913a3d-183e-41c3-984f-6feb05f45cdb]: Assigning socketPath: \\?\pipe\C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions\4292 
-[debug] [2020-08-21T05:53:18.870Z] [worker-~diagnostic~-c9913a3d-183e-41c3-984f-6feb05f45cdb]: BUSY 
-[debug] [2020-08-21T05:53:19.630Z] [runtime-status] [4292] Functions runtime initialized. {"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","node_version":"13.7.0"} 
-[debug] [2020-08-21T05:53:19.636Z] [runtime-status] [4292] Disabled runtime features: undefined 
-[debug] [2020-08-21T05:53:19.644Z] [runtime-status] [4292] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
-[debug] [2020-08-21T05:53:19.647Z] [runtime-status] [4292] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.10.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
-[debug] [2020-08-21T05:53:19.649Z] [runtime-status] [4292] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
-[debug] [2020-08-21T05:53:19.723Z] [runtime-status] [4292] Checked functions.config() {"config":{}} 
-[debug] [2020-08-21T05:53:19.724Z] [runtime-status] [4292] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","projectId":"zerobugs-277520","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\4292"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+[debug] [2020-08-21T15:58:48.092Z] [worker-pool] addWorker(~diagnostic~) 
+[debug] [2020-08-21T15:58:48.093Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
+[debug] [2020-08-21T15:58:48.093Z] [worker-pool] submitWork(triggerId=) 
+[debug] [2020-08-21T15:58:48.094Z] [worker-~diagnostic~-0f8f8e54-0aa1-4a9f-8958-9384ad0fd9bc]: Assigning socketPath: \\?\pipe\C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions\9240 
+[debug] [2020-08-21T15:58:48.095Z] [worker-~diagnostic~-0f8f8e54-0aa1-4a9f-8958-9384ad0fd9bc]: BUSY 
+[debug] [2020-08-21T15:58:49.195Z] [runtime-status] [9240] Functions runtime initialized. {"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","node_version":"13.7.0"} 
+[debug] [2020-08-21T15:58:49.201Z] [runtime-status] [9240] Disabled runtime features: undefined 
+[debug] [2020-08-21T15:58:49.212Z] [runtime-status] [9240] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
+[debug] [2020-08-21T15:58:49.215Z] [runtime-status] [9240] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.10.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
+[debug] [2020-08-21T15:58:49.218Z] [runtime-status] [9240] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
+[debug] [2020-08-21T15:58:49.307Z] [runtime-status] [9240] Checked functions.config() {"config":{}} 
+[debug] [2020-08-21T15:58:49.307Z] [runtime-status] [9240] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","projectId":"zerobugs-277520","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\9240"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
     at C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
     at Generator.next (<anonymous>)
     at fulfilled (C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
     at processTicksAndRejections (internal/process/task_queues.js:97:5) 
 [warn] !  functions: Cannot set property config of #<Object> which has only a getter
 [warn] !  Your function was killed because it raised an unhandled error.
-[debug] [2020-08-21T05:53:19.735Z] [worker-~diagnostic~-c9913a3d-183e-41c3-984f-6feb05f45cdb]: exited 
-[debug] [2020-08-21T05:53:19.735Z] [worker-~diagnostic~-c9913a3d-183e-41c3-984f-6feb05f45cdb]: FINISHED 
-[debug] [2020-08-21T05:58:26.706Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T05:58:26.710Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2020-08-21T05:58:26.710Z] CLI Version:   8.2.0
-[debug] [2020-08-21T05:58:26.710Z] Platform:      win32
-[debug] [2020-08-21T05:58:26.710Z] Node Version:  v13.7.0
-[debug] [2020-08-21T05:58:26.712Z] Time:          Fri Aug 21 2020 11:28:26 GMT+0530 (India Standard Time)
-[debug] [2020-08-21T05:58:26.713Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T05:58:26.713Z] 
-[debug] [2020-08-21T05:58:26.725Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2020-08-21T05:58:26.726Z] > authorizing via signed-in user
-[debug] [2020-08-21T05:58:26.726Z] [iam] checking project zerobugs-277520 for permissions ["firebase.projects.get"]
-[debug] [2020-08-21T05:58:26.730Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/zerobugs-277520:testIamPermissions  
- {"permissions":["firebase.projects.get"]}
-[debug] [2020-08-21T05:58:27.964Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 05:58:28 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1000","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-08-21T05:58:27.970Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520  
- 
-[debug] [2020-08-21T05:58:28.423Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 05:58:28 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] 
-[info] === Serving from 'C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp'...
-[info] 
-[debug] [2020-08-21T05:58:28.431Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520/webApps/-/config  
- 
-[debug] [2020-08-21T05:58:29.689Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 05:58:30 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] +  hosting: Local server: http://localhost:5000
-[warn] !  Your requested "node" version "8" doesn't match your global version "13"
-[info] +  functions: functions emulator started at http://localhost:5001
-[info] i  functions: Watching "C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions" for Cloud Functions...
-[debug] [2020-08-21T05:58:30.535Z] [worker-pool] addWorker(~diagnostic~) 
-[debug] [2020-08-21T05:58:30.536Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
-[debug] [2020-08-21T05:58:30.536Z] [worker-pool] submitWork(triggerId=) 
-[debug] [2020-08-21T05:58:30.537Z] [worker-~diagnostic~-b3ce9304-2e76-4147-86c7-95fb0c5f39ba]: Assigning socketPath: \\?\pipe\C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions\13248 
-[debug] [2020-08-21T05:58:30.538Z] [worker-~diagnostic~-b3ce9304-2e76-4147-86c7-95fb0c5f39ba]: BUSY 
-[debug] [2020-08-21T05:58:31.289Z] [runtime-status] [13248] Functions runtime initialized. {"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","node_version":"13.7.0"} 
-[debug] [2020-08-21T05:58:31.294Z] [runtime-status] [13248] Disabled runtime features: undefined 
-[debug] [2020-08-21T05:58:31.303Z] [runtime-status] [13248] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
-[debug] [2020-08-21T05:58:31.307Z] [runtime-status] [13248] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.10.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
-[debug] [2020-08-21T05:58:31.310Z] [runtime-status] [13248] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
-[debug] [2020-08-21T05:58:31.399Z] [runtime-status] [13248] Checked functions.config() {"config":{}} 
-[debug] [2020-08-21T05:58:31.399Z] [runtime-status] [13248] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","projectId":"zerobugs-277520","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\13248"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
-    at C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
-    at Generator.next (<anonymous>)
-    at fulfilled (C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
-[warn] !  functions: Cannot set property config of #<Object> which has only a getter
-[warn] !  Your function was killed because it raised an unhandled error.
-[debug] [2020-08-21T05:58:31.415Z] [worker-~diagnostic~-b3ce9304-2e76-4147-86c7-95fb0c5f39ba]: exited 
-[debug] [2020-08-21T05:58:31.415Z] [worker-~diagnostic~-b3ce9304-2e76-4147-86c7-95fb0c5f39ba]: FINISHED 
-[debug] [2020-08-21T06:15:34.344Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T06:15:34.348Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2020-08-21T06:15:34.348Z] CLI Version:   8.2.0
-[debug] [2020-08-21T06:15:34.348Z] Platform:      win32
-[debug] [2020-08-21T06:15:34.349Z] Node Version:  v13.7.0
-[debug] [2020-08-21T06:15:34.351Z] Time:          Fri Aug 21 2020 11:45:34 GMT+0530 (India Standard Time)
-[debug] [2020-08-21T06:15:34.351Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T06:15:34.351Z] 
-[debug] [2020-08-21T06:15:34.364Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2020-08-21T06:15:34.365Z] > authorizing via signed-in user
-[debug] [2020-08-21T06:15:34.366Z] [iam] checking project zerobugs-277520 for permissions ["firebase.projects.get"]
-[debug] [2020-08-21T06:15:34.371Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/zerobugs-277520:testIamPermissions  
- {"permissions":["firebase.projects.get"]}
-[debug] [2020-08-21T06:15:35.707Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 06:15:36 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1056","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-08-21T06:15:35.709Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520  
- 
-[debug] [2020-08-21T06:15:36.119Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 06:15:36 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] 
-[info] === Serving from 'C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp'...
-[info] 
-[debug] [2020-08-21T06:15:36.126Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520/webApps/-/config  
- 
-[debug] [2020-08-21T06:15:37.221Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 06:15:37 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] +  hosting: Local server: http://localhost:5000
-[warn] !  Your requested "node" version "8" doesn't match your global version "13"
-[info] +  functions: functions emulator started at http://localhost:5001
-[info] i  functions: Watching "C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions" for Cloud Functions...
-[debug] [2020-08-21T06:15:38.221Z] [worker-pool] addWorker(~diagnostic~) 
-[debug] [2020-08-21T06:15:38.222Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
-[debug] [2020-08-21T06:15:38.222Z] [worker-pool] submitWork(triggerId=) 
-[debug] [2020-08-21T06:15:38.223Z] [worker-~diagnostic~-0cb204c4-ce16-40e6-b7d2-dfd7ced0e87d]: Assigning socketPath: \\?\pipe\C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions\7124 
-[debug] [2020-08-21T06:15:38.223Z] [worker-~diagnostic~-0cb204c4-ce16-40e6-b7d2-dfd7ced0e87d]: BUSY 
-[debug] [2020-08-21T06:15:39.133Z] [runtime-status] [7124] Functions runtime initialized. {"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","node_version":"13.7.0"} 
-[debug] [2020-08-21T06:15:39.139Z] [runtime-status] [7124] Disabled runtime features: undefined 
-[debug] [2020-08-21T06:15:39.148Z] [runtime-status] [7124] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
-[debug] [2020-08-21T06:15:39.151Z] [runtime-status] [7124] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.10.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
-[debug] [2020-08-21T06:15:39.154Z] [runtime-status] [7124] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
-[debug] [2020-08-21T06:15:39.228Z] [runtime-status] [7124] Checked functions.config() {"config":{}} 
-[debug] [2020-08-21T06:15:39.228Z] [runtime-status] [7124] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","projectId":"zerobugs-277520","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\7124"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
-    at C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
-    at Generator.next (<anonymous>)
-    at fulfilled (C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
-[warn] !  functions: Cannot set property config of #<Object> which has only a getter
-[warn] !  Your function was killed because it raised an unhandled error.
-[debug] [2020-08-21T06:15:39.241Z] [worker-~diagnostic~-0cb204c4-ce16-40e6-b7d2-dfd7ced0e87d]: exited 
-[debug] [2020-08-21T06:15:39.241Z] [worker-~diagnostic~-0cb204c4-ce16-40e6-b7d2-dfd7ced0e87d]: FINISHED 
-[debug] [2020-08-21T06:16:24.500Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T06:16:24.503Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2020-08-21T06:16:24.504Z] CLI Version:   8.2.0
-[debug] [2020-08-21T06:16:24.504Z] Platform:      win32
-[debug] [2020-08-21T06:16:24.504Z] Node Version:  v13.7.0
-[debug] [2020-08-21T06:16:24.506Z] Time:          Fri Aug 21 2020 11:46:24 GMT+0530 (India Standard Time)
-[debug] [2020-08-21T06:16:24.506Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T06:16:24.506Z] 
-[debug] [2020-08-21T06:16:24.520Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2020-08-21T06:16:24.522Z] > authorizing via signed-in user
-[debug] [2020-08-21T06:16:24.523Z] [iam] checking project zerobugs-277520 for permissions ["firebase.projects.get"]
-[debug] [2020-08-21T06:16:24.527Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/zerobugs-277520:testIamPermissions  
- {"permissions":["firebase.projects.get"]}
-[debug] [2020-08-21T06:16:25.769Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 06:16:26 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1038","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-08-21T06:16:25.771Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520  
- 
-[debug] [2020-08-21T06:16:26.156Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 06:16:26 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] 
-[info] === Serving from 'C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp'...
-[info] 
-[debug] [2020-08-21T06:16:26.166Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520/webApps/-/config  
- 
-[debug] [2020-08-21T06:16:27.255Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 06:16:27 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] +  hosting: Local server: http://localhost:5000
-[warn] !  Your requested "node" version "8" doesn't match your global version "13"
-[info] +  functions: functions emulator started at http://localhost:5001
-[info] i  functions: Watching "C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions" for Cloud Functions...
-[debug] [2020-08-21T06:16:28.247Z] [worker-pool] addWorker(~diagnostic~) 
-[debug] [2020-08-21T06:16:28.248Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
-[debug] [2020-08-21T06:16:28.248Z] [worker-pool] submitWork(triggerId=) 
-[debug] [2020-08-21T06:16:28.249Z] [worker-~diagnostic~-42148f57-2514-4750-a7e7-089516be2780]: Assigning socketPath: \\?\pipe\C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions\9532 
-[debug] [2020-08-21T06:16:28.250Z] [worker-~diagnostic~-42148f57-2514-4750-a7e7-089516be2780]: BUSY 
-[debug] [2020-08-21T06:16:29.241Z] [runtime-status] [9532] Functions runtime initialized. {"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","node_version":"13.7.0"} 
-[debug] [2020-08-21T06:16:29.246Z] [runtime-status] [9532] Disabled runtime features: undefined 
-[debug] [2020-08-21T06:16:29.256Z] [runtime-status] [9532] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
-[debug] [2020-08-21T06:16:29.259Z] [runtime-status] [9532] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.10.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
-[debug] [2020-08-21T06:16:29.262Z] [runtime-status] [9532] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
-[debug] [2020-08-21T06:16:29.335Z] [runtime-status] [9532] Checked functions.config() {"config":{}} 
-[debug] [2020-08-21T06:16:29.336Z] [runtime-status] [9532] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","projectId":"zerobugs-277520","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\9532"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
-    at C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
-    at Generator.next (<anonymous>)
-    at fulfilled (C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
-[warn] !  functions: Cannot set property config of #<Object> which has only a getter
-[warn] !  Your function was killed because it raised an unhandled error.
-[debug] [2020-08-21T06:16:29.349Z] [worker-~diagnostic~-42148f57-2514-4750-a7e7-089516be2780]: exited 
-[debug] [2020-08-21T06:16:29.349Z] [worker-~diagnostic~-42148f57-2514-4750-a7e7-089516be2780]: FINISHED 
-[debug] [2020-08-21T08:07:13.923Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T08:07:13.926Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2020-08-21T08:07:13.926Z] CLI Version:   8.2.0
-[debug] [2020-08-21T08:07:13.926Z] Platform:      win32
-[debug] [2020-08-21T08:07:13.926Z] Node Version:  v13.7.0
-[debug] [2020-08-21T08:07:13.928Z] Time:          Fri Aug 21 2020 13:37:13 GMT+0530 (India Standard Time)
-[debug] [2020-08-21T08:07:13.929Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T08:07:13.929Z] 
-[debug] [2020-08-21T08:07:13.942Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2020-08-21T08:07:13.943Z] > authorizing via signed-in user
-[debug] [2020-08-21T08:07:13.943Z] [iam] checking project zerobugs-277520 for permissions ["firebase.projects.get"]
-[debug] [2020-08-21T08:07:13.947Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2020-08-21T08:07:13.948Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2020-08-21T08:07:14.188Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 08:07:15 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-08-21T08:07:14.343Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/zerobugs-277520:testIamPermissions  
- {"permissions":["firebase.projects.get"]}
-[debug] [2020-08-21T08:07:15.577Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 08:07:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1031","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-08-21T08:07:15.579Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520  
- 
-[debug] [2020-08-21T08:07:15.960Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 08:07:16 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] 
-[info] === Serving from 'C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp'...
-[info] 
-[debug] [2020-08-21T08:07:15.982Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520/webApps/-/config  
- 
-[debug] [2020-08-21T08:07:17.161Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 08:07:18 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] +  hosting: Local server: http://localhost:5000
-[warn] !  Your requested "node" version "8" doesn't match your global version "13"
-[info] +  functions: functions emulator started at http://localhost:5001
-[info] i  functions: Watching "C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions" for Cloud Functions...
-[debug] [2020-08-21T08:07:18.087Z] [worker-pool] addWorker(~diagnostic~) 
-[debug] [2020-08-21T08:07:18.087Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
-[debug] [2020-08-21T08:07:18.088Z] [worker-pool] submitWork(triggerId=) 
-[debug] [2020-08-21T08:07:18.088Z] [worker-~diagnostic~-2257116d-4db2-4395-ae57-cbcb390bf100]: Assigning socketPath: \\?\pipe\C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions\7708 
-[debug] [2020-08-21T08:07:18.089Z] [worker-~diagnostic~-2257116d-4db2-4395-ae57-cbcb390bf100]: BUSY 
-[debug] [2020-08-21T08:07:19.096Z] [runtime-status] [7708] Functions runtime initialized. {"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","node_version":"13.7.0"} 
-[debug] [2020-08-21T08:07:19.101Z] [runtime-status] [7708] Disabled runtime features: undefined 
-[debug] [2020-08-21T08:07:19.111Z] [runtime-status] [7708] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
-[debug] [2020-08-21T08:07:19.114Z] [runtime-status] [7708] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.10.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
-[debug] [2020-08-21T08:07:19.116Z] [runtime-status] [7708] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
-[debug] [2020-08-21T08:07:19.195Z] [runtime-status] [7708] Checked functions.config() {"config":{}} 
-[debug] [2020-08-21T08:07:19.196Z] [runtime-status] [7708] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","projectId":"zerobugs-277520","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\7708"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
-    at C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
-    at Generator.next (<anonymous>)
-    at fulfilled (C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
-[warn] !  functions: Cannot set property config of #<Object> which has only a getter
-[warn] !  Your function was killed because it raised an unhandled error.
-[debug] [2020-08-21T08:07:19.208Z] [worker-~diagnostic~-2257116d-4db2-4395-ae57-cbcb390bf100]: exited 
-[debug] [2020-08-21T08:07:19.209Z] [worker-~diagnostic~-2257116d-4db2-4395-ae57-cbcb390bf100]: FINISHED 
-[debug] [2020-08-21T08:56:51.476Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T08:56:51.481Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2020-08-21T08:56:51.482Z] CLI Version:   8.2.0
-[debug] [2020-08-21T08:56:51.482Z] Platform:      win32
-[debug] [2020-08-21T08:56:51.482Z] Node Version:  v13.7.0
-[debug] [2020-08-21T08:56:51.485Z] Time:          Fri Aug 21 2020 14:26:51 GMT+0530 (India Standard Time)
-[debug] [2020-08-21T08:56:51.486Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T08:56:51.486Z] 
-[debug] [2020-08-21T08:56:51.507Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2020-08-21T08:56:51.508Z] > authorizing via signed-in user
-[debug] [2020-08-21T08:56:51.509Z] [iam] checking project zerobugs-277520 for permissions ["firebase.projects.get"]
-[debug] [2020-08-21T08:56:51.517Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2020-08-21T08:56:51.518Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- <request body omitted>
-[debug] [2020-08-21T08:56:51.779Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 08:56:52 GMT","server":"scaffolding on HTTPServer2","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-08-21T08:56:51.867Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/zerobugs-277520:testIamPermissions  
- {"permissions":["firebase.projects.get"]}
-[debug] [2020-08-21T08:56:52.978Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 08:56:53 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=954","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-08-21T08:56:52.979Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520  
- 
-[debug] [2020-08-21T08:56:53.351Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 08:56:54 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] 
-[info] === Serving from 'C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp'...
-[info] 
-[debug] [2020-08-21T08:56:53.357Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520/webApps/-/config  
- 
-[debug] [2020-08-21T08:56:54.593Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 08:56:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] +  hosting: Local server: http://localhost:5000
-[warn] !  Your requested "node" version "8" doesn't match your global version "13"
-[info] +  functions: functions emulator started at http://localhost:5001
-[info] i  functions: Watching "C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions" for Cloud Functions...
-[debug] [2020-08-21T08:56:55.421Z] [worker-pool] addWorker(~diagnostic~) 
-[debug] [2020-08-21T08:56:55.421Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
-[debug] [2020-08-21T08:56:55.421Z] [worker-pool] submitWork(triggerId=) 
-[debug] [2020-08-21T08:56:55.422Z] [worker-~diagnostic~-f06f9dfd-aea6-4d8e-ac82-3cb0458d6eff]: Assigning socketPath: \\?\pipe\C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions\7852 
-[debug] [2020-08-21T08:56:55.423Z] [worker-~diagnostic~-f06f9dfd-aea6-4d8e-ac82-3cb0458d6eff]: BUSY 
-[debug] [2020-08-21T08:56:56.377Z] [runtime-status] [7852] Functions runtime initialized. {"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","node_version":"13.7.0"} 
-[debug] [2020-08-21T08:56:56.391Z] [runtime-status] [7852] Disabled runtime features: undefined 
-[debug] [2020-08-21T08:56:56.408Z] [runtime-status] [7852] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
-[debug] [2020-08-21T08:56:56.414Z] [runtime-status] [7852] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.10.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
-[debug] [2020-08-21T08:56:56.417Z] [runtime-status] [7852] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
-[debug] [2020-08-21T08:56:56.507Z] [runtime-status] [7852] Checked functions.config() {"config":{}} 
-[debug] [2020-08-21T08:56:56.507Z] [runtime-status] [7852] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","projectId":"zerobugs-277520","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\7852"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
-    at C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
-    at Generator.next (<anonymous>)
-    at fulfilled (C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
-[warn] !  functions: Cannot set property config of #<Object> which has only a getter
-[warn] !  Your function was killed because it raised an unhandled error.
-[debug] [2020-08-21T08:56:56.525Z] [worker-~diagnostic~-f06f9dfd-aea6-4d8e-ac82-3cb0458d6eff]: exited 
-[debug] [2020-08-21T08:56:56.525Z] [worker-~diagnostic~-f06f9dfd-aea6-4d8e-ac82-3cb0458d6eff]: FINISHED 
-[debug] [2020-08-21T09:34:07.692Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T09:34:07.695Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
-[debug] [2020-08-21T09:34:07.696Z] CLI Version:   8.2.0
-[debug] [2020-08-21T09:34:07.696Z] Platform:      win32
-[debug] [2020-08-21T09:34:07.696Z] Node Version:  v13.7.0
-[debug] [2020-08-21T09:34:07.698Z] Time:          Fri Aug 21 2020 15:04:07 GMT+0530 (India Standard Time)
-[debug] [2020-08-21T09:34:07.698Z] ----------------------------------------------------------------------
-[debug] [2020-08-21T09:34:07.699Z] 
-[debug] [2020-08-21T09:34:07.713Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2020-08-21T09:34:07.714Z] > authorizing via signed-in user
-[debug] [2020-08-21T09:34:07.714Z] [iam] checking project zerobugs-277520 for permissions ["firebase.projects.get"]
-[debug] [2020-08-21T09:34:07.719Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/zerobugs-277520:testIamPermissions  
- {"permissions":["firebase.projects.get"]}
-[debug] [2020-08-21T09:34:10.166Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 09:34:11 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=948","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-08-21T09:34:10.168Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520  
- 
-[debug] [2020-08-21T09:34:10.596Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 09:34:11 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] 
-[info] === Serving from 'C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp'...
-[info] 
-[debug] [2020-08-21T09:34:10.627Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/zerobugs-277520/webApps/-/config  
- 
-[debug] [2020-08-21T09:34:12.006Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Fri, 21 Aug 2020 09:34:13 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[info] +  hosting: Local server: http://localhost:5000
-[warn] !  Your requested "node" version "8" doesn't match your global version "13"
-[info] +  functions: functions emulator started at http://localhost:5001
-[info] i  functions: Watching "C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions" for Cloud Functions...
-[debug] [2020-08-21T09:34:12.707Z] [worker-pool] addWorker(~diagnostic~) 
-[debug] [2020-08-21T09:34:12.707Z] [worker-pool] Adding worker with key ~diagnostic~, total=1 
-[debug] [2020-08-21T09:34:12.707Z] [worker-pool] submitWork(triggerId=) 
-[debug] [2020-08-21T09:34:12.708Z] [worker-~diagnostic~-61c3b0c5-f4ba-4e62-bc40-be24a9d50777]: Assigning socketPath: \\?\pipe\C:\Users\Aux-138\WebstormProjects\Firebase-NotificationWebApp\functions\19156 
-[debug] [2020-08-21T09:34:12.709Z] [worker-~diagnostic~-61c3b0c5-f4ba-4e62-bc40-be24a9d50777]: BUSY 
-[debug] [2020-08-21T09:34:14.389Z] [runtime-status] [19156] Functions runtime initialized. {"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","node_version":"13.7.0"} 
-[debug] [2020-08-21T09:34:14.397Z] [runtime-status] [19156] Disabled runtime features: undefined 
-[debug] [2020-08-21T09:34:14.412Z] [runtime-status] [19156] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-admin\\lib\\index.js"} 
-[debug] [2020-08-21T09:34:14.417Z] [runtime-status] [19156] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.10.0","resolution":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\node_modules\\firebase-functions\\lib\\index.js"} 
-[debug] [2020-08-21T09:34:14.422Z] [runtime-status] [19156] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] 
-[debug] [2020-08-21T09:34:14.586Z] [runtime-status] [19156] Checked functions.config() {"config":{}} 
-[debug] [2020-08-21T09:34:14.587Z] [runtime-status] [19156] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions","projectId":"zerobugs-277520","triggerId":"","emulators":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\Aux-138\\WebstormProjects\\Firebase-NotificationWebApp\\functions\\19156"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
-    at C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:455:19
-    at Generator.next (<anonymous>)
-    at fulfilled (C:\Users\Aux-138\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:5:58)
-    at processTicksAndRejections (internal/process/task_queues.js:97:5) 
-[warn] !  functions: Cannot set property config of #<Object> which has only a getter
-[warn] !  Your function was killed because it raised an unhandled error.
-[debug] [2020-08-21T09:34:14.622Z] [worker-~diagnostic~-61c3b0c5-f4ba-4e62-bc40-be24a9d50777]: exited 
-[debug] [2020-08-21T09:34:14.622Z] [worker-~diagnostic~-61c3b0c5-f4ba-4e62-bc40-be24a9d50777]: FINISHED 
+[debug] [2020-08-21T15:58:49.323Z] [worker-~diagnostic~-0f8f8e54-0aa1-4a9f-8958-9384ad0fd9bc]: exited 
+[debug] [2020-08-21T15:58:49.323Z] [worker-~diagnostic~-0f8f8e54-0aa1-4a9f-8958-9384ad0fd9bc]: FINISHED 
