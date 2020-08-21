@@ -6,7 +6,7 @@ admin.initializeApp(functions.config().firebase);
 exports.sendNotification = functions.database.ref('/notifications/{notificationId}').onWrite((event) => {
     console.log(event);
 
-    const NOTIFICATION_SNAPSHOT = event.after.DataSnapshot._data ;
+    const NOTIFICATION_SNAPSHOT = event.after.DataSnapshot.data;
     const payload = {
         notification: {
             title: `New message from ${NOTIFICATION_SNAPSHOT.user}`,
