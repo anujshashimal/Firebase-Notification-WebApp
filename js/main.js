@@ -9,12 +9,13 @@ const signInButton = document.getElementById('sign-in');
 const signOutButton = document.getElementById('sign-out');
 const subscribeButton = document.getElementById('subscribe');
 const unsubscribeButton = document.getElementById('unsubscribe');
+const sendNotificationForm = document.getElementById('send-notification-form');
 
     signInButton.addEventListener('click', singIn);
     signOutButton.addEventListener('click', singOut);
     subscribeButton.addEventListener('click', subscribeNotification);
     unsubscribeButton.addEventListener('click', unsubscribeNotifications);
-
+    sendNotificationForm.addEventListener('submit', sendNotification);
     checkSubscription();
 
 function singIn() {
@@ -85,8 +86,19 @@ function checkSubscription(){
         })
         }
 
+function sendNotification(e) {
+    e.preventDefault();
 
+    const notificationMessage = document.getElementById('notification-message').value;
 
+    FIREBASE_DATABASE.ref('/notifications').push({
+        user: FIREBASE_AUTH.currentUser.displayName,
+        message : notificationMessage,
+        userProfileImg: FIREBASE_AUTH.currentUser.photoURL
+    }).then(() => {
+        document.getElementById('notification-message').value = "";
+    })
+}
 
 
 
