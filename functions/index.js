@@ -33,6 +33,14 @@ exports.sendNotification = functions.database.ref('/notifications/{notificationI
         })
 });
 
+// const payloadItem = {
+//     notification: {
+//         title: `New message from ${NOTIFICATION_SNAPSHOT.user}`,
+//         body: NOTIFICATION_SNAPSHOT.message,
+//         icons: NOTIFICATION_SNAPSHOT.userProfileImg,
+//         // click_action: `https://${functions.config().firebase.authDomain}`
+//     }
+// };
 // // Create and Deploy Your First Cloud Functions
 // // https://firebase.google.com/docs/functions/write-firebase-functions
 //
