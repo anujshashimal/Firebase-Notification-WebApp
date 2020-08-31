@@ -85,7 +85,7 @@ function checkSubscription(){
                 subscribeButton.removeAttribute("hidden");
             }
         })
-        }
+}
 
 function sendNotification(e) {
     e.preventDefault();
@@ -101,7 +101,20 @@ function sendNotification(e) {
     })
 }
 
+//Optional function
+    function sendNotificationFunction(e) {
+        e.preventDefault();
 
+        const notificationMessage = document.getElementById('notification-message').value;
+
+        FIREBASE_DATABASE.ref('/notifications').push({
+            user: FIREBASE_AUTH.currentUser.displayName,
+            message : notificationMessage,
+            userProfileImg: FIREBASE_AUTH.currentUser.photoURL
+        }).then(() => {
+            document.getElementById('notification-message').value = "";
+        })
+    }
 
 
 
